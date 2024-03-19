@@ -1,0 +1,37 @@
+.col-2 {
+    transition: box-shadow 0.4s;
+    height: 515px;
+}
+
+.col-2:hover {
+    box-shadow: 0 4px 8px rgba(85, 82, 82, 0.632);
+}
+
+.button {
+    padding: 21px 73px;
+    margin-top: -9px;
+    font-size: 17px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #000000;
+    background-color: white;
+    border: solid rgb(211, 211, 211) 1px;
+}
+
+.button:hover {
+    background: url(Assets/red\ bg.jpg);
+    background-size: 300%;
+    color: white;
+}
+
+
+
+.navbar {
+    justify-content: center;
+    background-color: white;
+    height: 63px;
+    border: solid rgb(211, 211, 211) 1px;
+    margin-left: -13px;
+    margin-right: -12px;
+}
